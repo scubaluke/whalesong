@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WHALE SONG</title>
+    <link rel="stylesheet" href="whaleSong.css">
+</head>
+<body>
+    <body id="body" class="lightMode">
+        <header><h1>Welcome to Whale Song! </h1>
+          <h2>Create your own whale song</h2> 
+        </header>
+        <div class="lightdark">
+          <label class="switch" for="checkbox">
+            <input type="checkbox" id="checkbox" onclick="toggleDarkLight()"/>
+            <div class="slider round"></div>
+          </label>
+        </div>
+
+
+          <section>      
+              <p> Type in your phrase to translate it to whale speak. <br>
+                 <input type="text" id="speak" ><br>   
+            <h4 id="print1"></h4>
+            <button onclick="whaleSong()" id="sing">Create!</button>
+                     </p>
+          
+          </section>
+
+    <script src="whaleSong.js"></script>
+</body>
+</html>
